@@ -18,6 +18,7 @@ id ll_bottom
 id ll_top
 id parent
 id receiveTxt
+id receiveTxt1
 id text
 id topLeft
 id topRight

@@ -10,12 +10,16 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.EditText
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.get
 import com.my.fragmentbehaviousapp.R
+import com.my.fragmentbehaviousapp.domain.ShareDataViewModel
 
 class Frag1 : Fragment() {
 
     private val TAG: String = "Darshna "
     private lateinit var myShareInterface: MyShareInterface
+    private lateinit var shareDataViewModel: ShareDataViewModel
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -50,6 +54,8 @@ class Frag1 : Fragment() {
 
     private fun initView(view: View) {
         val editText = view.findViewById<EditText>(R.id.editText)
+        shareDataViewModel =
+            ViewModelProvider(requireActivity())[ShareDataViewModel::class.java]
         editText.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
 
@@ -60,10 +66,14 @@ class Frag1 : Fragment() {
 
             override fun afterTextChanged(s: Editable?) {
                 val msg = s.toString()
-                //setData to interface
+                //setData to interface way1
                 myShareInterface.sendData(msg)
+                //set data to viewmodel way2
+                shareDataViewModel.sendData(msg)
             }
         })
+
+
     }
 
     override fun onViewStateRestored(savedInstanceState: Bundle?) {

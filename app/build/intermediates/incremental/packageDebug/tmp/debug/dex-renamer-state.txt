@@ -1,8 +1,10 @@
-#Fri Jan 06 00:33:05 IST 2023
+#Fri Jan 06 01:35:10 IST 2023
+path.4=6/classes.dex
 path.3=4/classes.dex
 path.2=13/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
+base.4=C\:\\Users\\c5141506\\Videos\\FragmentBehaviousApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
 base.3=C\:\\Users\\c5141506\\Videos\\FragmentBehaviousApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
 base.2=C\:\\Users\\c5141506\\Videos\\FragmentBehaviousApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 base.1=C\:\\Users\\c5141506\\Videos\\FragmentBehaviousApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
@@ -11,3 +13,4 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+renamed.4=classes5.dex
