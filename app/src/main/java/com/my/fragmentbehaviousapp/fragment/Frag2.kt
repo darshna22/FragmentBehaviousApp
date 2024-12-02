@@ -10,8 +10,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.my.fragmentbehaviousapp.MainActivity
-import com.my.fragmentbehaviousapp.R
+import com.example.myapplication.R
 import com.my.fragmentbehaviousapp.domain.ShareDataViewModel
 
 class Frag2 : Fragment() {

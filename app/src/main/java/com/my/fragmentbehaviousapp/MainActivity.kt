@@ -4,12 +4,13 @@ import android.os.Bundle
 import android.view.View
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.R
 import com.my.fragmentbehaviousapp.fragment.Frag1
 import com.my.fragmentbehaviousapp.fragment.Frag2
 
 class MainActivity : AppCompatActivity(), Frag1.MyShareInterface {
-    var view1: View? = null
-    var view2: View? = null
+    var view1: FrameLayout? = null
+    var view2: FrameLayout? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -11,8 +11,7 @@ import android.view.ViewGroup
 import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
-import com.my.fragmentbehaviousapp.R
+import com.example.myapplication.R
 import com.my.fragmentbehaviousapp.domain.ShareDataViewModel
 
 class Frag1 : Fragment() {
